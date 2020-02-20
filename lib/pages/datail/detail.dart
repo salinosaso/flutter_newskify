@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:FlutterNews/support/util/StringsLocation.dart';
-import 'package:FlutterNews/support/util/date_util.dart';
-import 'package:FlutterNews/support/util/functions.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/support/util/date_util.dart';
+import 'package:NewskeepyAlpha/support/util/functions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';

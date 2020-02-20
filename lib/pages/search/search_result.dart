@@ -1,10 +1,10 @@
-import 'package:FlutterNews/pages/search/search_events.dart';
-import 'package:FlutterNews/pages/search/search_result_bloc.dart';
-import 'package:FlutterNews/pages/search/search_streams.dart';
-import 'package:FlutterNews/repository/notice_repository/model/notice.dart';
-import 'package:FlutterNews/support/util/StringsLocation.dart';
-import 'package:FlutterNews/widgets/AnimatedContent.dart';
-import 'package:FlutterNews/widgets/erro_conection.dart';
+import 'package:NewskeepyAlpha/pages/search/search_events.dart';
+import 'package:NewskeepyAlpha/pages/search/search_result_bloc.dart';
+import 'package:NewskeepyAlpha/pages/search/search_streams.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/model/notice.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/widgets/AnimatedContent.dart';
+import 'package:NewskeepyAlpha/widgets/erro_conection.dart';
 import 'package:bsev/bsev.dart';
 import 'package:flutter/material.dart';
 

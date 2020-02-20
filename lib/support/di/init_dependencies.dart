@@ -1,11 +1,11 @@
-import 'package:FlutterNews/pages/featured/featured_bloc.dart';
-import 'package:FlutterNews/pages/featured/featured_streams.dart';
-import 'package:FlutterNews/pages/home/home_bloc.dart';
-import 'package:FlutterNews/pages/home/home_streams.dart';
-import 'package:FlutterNews/pages/news/news_bloc.dart';
-import 'package:FlutterNews/pages/news/news_streams.dart';
-import 'package:FlutterNews/pages/search/search_result_bloc.dart';
-import 'package:FlutterNews/pages/search/search_streams.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_bloc.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_streams.dart';
+import 'package:NewskeepyAlpha/pages/home/home_bloc.dart';
+import 'package:NewskeepyAlpha/pages/home/home_streams.dart';
+import 'package:NewskeepyAlpha/pages/news/news_bloc.dart';
+import 'package:NewskeepyAlpha/pages/news/news_streams.dart';
+import 'package:NewskeepyAlpha/pages/search/search_result_bloc.dart';
+import 'package:NewskeepyAlpha/pages/search/search_streams.dart';
 import 'package:bsev/bsev.dart';
 import 'package:bsev/flavors.dart';
 

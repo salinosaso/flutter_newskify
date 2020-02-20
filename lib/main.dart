@@ -1,6 +1,6 @@
-import 'package:FlutterNews/pages/home/home_view.dart';
-import 'package:FlutterNews/support/di/init_dependencies.dart';
-import 'package:FlutterNews/support/localization/MyLocalizationsDelegate.dart';
+import 'package:NewskeepyAlpha/pages/home/home_view.dart';
+import 'package:NewskeepyAlpha/support/di/init_dependencies.dart';
+import 'package:NewskeepyAlpha/support/localization/MyLocalizationsDelegate.dart';
 import 'package:bsev/flavors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -10,25 +10,30 @@ import 'support/di/init_dependencies.dart';
 
 void main() => runApp(new NewsApp());
 
-class NewsApp extends StatelessWidget {
-  MyLocalizationsDelegate myLocation = const MyLocalizationsDelegate();
+class NewsApp extends StatefulWidget {
 
   NewsApp() {
     Flavors.configure(Flavor.PROD);
     initDependencies();
   }
 
-  // This widget is the root of your application.
+  @override
+  _NewsAppState createState() => _NewsAppState();
+}
+
+class _NewsAppState extends State<NewsApp> {
+  MyLocalizationsDelegate myLocation = const MyLocalizationsDelegate();
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter News',
+      title: 'Newskeepy Alpha',
       theme: new ThemeData(
-          primarySwatch: Colors.blue,
-          primaryColor: Colors.blue,
-          accentColor: Colors.blue,
-          brightness: Brightness.light),
+          primarySwatch: Colors.pink,
+          primaryColor: Colors.pink,
+          accentColor: Colors.pink,
+          brightness: Brightness.dark),
       supportedLocales: MyLocalizationsDelegate.supportedLocales(),
       localizationsDelegates: [
         myLocation,

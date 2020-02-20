@@ -1,6 +1,6 @@
-import 'package:FlutterNews/support/util/date_util.dart';
-import 'package:FlutterNews/support/util/functions.dart';
-import 'package:FlutterNews/pages/datail/detail.dart';
+import 'package:NewskeepyAlpha/support/util/date_util.dart';
+import 'package:NewskeepyAlpha/support/util/functions.dart';
+import 'package:NewskeepyAlpha/pages/datail/detail.dart';
 import 'package:flutter/material.dart';
 
 class Notice extends StatelessWidget{

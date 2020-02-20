@@ -1,4 +1,4 @@
-import 'package:FlutterNews/repository/notice_repository/model/notice.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/model/notice.dart';
 import 'package:bsev/bsev.dart';
 
 class FeaturedStreams extends StreamsBase {

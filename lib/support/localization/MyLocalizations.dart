@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:FlutterNews/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -19,7 +19,8 @@ class MyLocalizations {
   Map<String, String> _sentences;
 
   Future<bool> load() async {
-    String data = await rootBundle.loadString('resources/lang/${this.locale.languageCode}.json');
+    String data = await rootBundle.loadString('resources/lang/en.json');
+    //String data = await rootBundle.loadString('resources/lang/${this.locale.languageCode}.json');
     Map<String, dynamic> _result = json.decode(data);
 
     this._sentences = new Map();

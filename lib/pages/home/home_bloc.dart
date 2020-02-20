@@ -1,4 +1,4 @@
-import 'package:FlutterNews/pages/home/home_streams.dart';
+import 'package:NewskeepyAlpha/pages/home/home_streams.dart';
 import 'package:bsev/bsev.dart';
 
 class HomeBloc extends BlocBase<HomeStreams> {

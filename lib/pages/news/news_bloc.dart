@@ -1,9 +1,9 @@
-import 'package:FlutterNews/pages/news/news_events.dart';
-import 'package:FlutterNews/pages/news/news_streams.dart';
-import 'package:FlutterNews/repository/notice_repository/model/notice.dart';
-import 'package:FlutterNews/repository/notice_repository/notice_repository.dart';
-import 'package:FlutterNews/support/conection/api.dart';
-import 'package:FlutterNews/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/pages/news/news_events.dart';
+import 'package:NewskeepyAlpha/pages/news/news_streams.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/model/notice.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/notice_repository.dart';
+import 'package:NewskeepyAlpha/support/conection/api.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
 import 'package:bsev/bsev.dart';
 
 class NewsBloc extends BlocBase<NewsStreams> {

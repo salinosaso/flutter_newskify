@@ -1,5 +1,5 @@
-import 'package:FlutterNews/pages/search/search_result.dart';
-import 'package:FlutterNews/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/pages/search/search_result.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
 import 'package:flutter/material.dart';
 
 class SearchWidget extends StatelessWidget {

@@ -1,10 +1,10 @@
-import 'package:FlutterNews/pages/featured/featured_bloc.dart';
-import 'package:FlutterNews/pages/featured/featured_events.dart';
-import 'package:FlutterNews/pages/featured/featured_streams.dart';
-import 'package:FlutterNews/repository/notice_repository/model/notice.dart';
-import 'package:FlutterNews/widgets/erro_conection.dart';
-import 'package:FlutterNews/widgets/pageTransform/intro_page_item.dart';
-import 'package:FlutterNews/widgets/pageTransform/page_transformer.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_bloc.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_events.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_streams.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/model/notice.dart';
+import 'package:NewskeepyAlpha/widgets/erro_conection.dart';
+import 'package:NewskeepyAlpha/widgets/pageTransform/intro_page_item.dart';
+import 'package:NewskeepyAlpha/widgets/pageTransform/page_transformer.dart';
 import 'package:bsev/bsev.dart';
 import 'package:flutter/material.dart';
 

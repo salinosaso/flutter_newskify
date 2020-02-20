@@ -1,10 +1,10 @@
-import 'package:FlutterNews/pages/featured/featured_view.dart';
-import 'package:FlutterNews/pages/home/home_bloc.dart';
-import 'package:FlutterNews/pages/home/home_streams.dart';
-import 'package:FlutterNews/pages/info/info.dart';
-import 'package:FlutterNews/pages/news/news_view.dart';
-import 'package:FlutterNews/widgets/bottom_navigation.dart';
-import 'package:FlutterNews/widgets/search.dart';
+import 'package:NewskeepyAlpha/pages/featured/featured_view.dart';
+import 'package:NewskeepyAlpha/pages/home/home_bloc.dart';
+import 'package:NewskeepyAlpha/pages/home/home_streams.dart';
+import 'package:NewskeepyAlpha/pages/info/info.dart';
+import 'package:NewskeepyAlpha/pages/news/news_view.dart';
+import 'package:NewskeepyAlpha/widgets/bottom_navigation.dart';
+import 'package:NewskeepyAlpha/widgets/search.dart';
 import 'package:bsev/bsev.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:FlutterNews/support/localization/MyLocalizations.dart';
+import 'package:NewskeepyAlpha/support/localization/MyLocalizations.dart';
 import 'package:flutter/material.dart';
 
 Type _typeOf<T>() => T;

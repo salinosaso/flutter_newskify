@@ -1,5 +1,5 @@
-name: FlutterNews
-description: A new Flutter application.
+name: NewskeepyAlpha
+description: A newskeepy prebuild
 
 dependencies:
   flutter:

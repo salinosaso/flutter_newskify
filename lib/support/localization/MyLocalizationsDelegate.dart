@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:FlutterNews/support/localization/MyLocalizations.dart';
+import 'package:NewskeepyAlpha/support/localization/MyLocalizations.dart';
 import 'package:flutter/material.dart';
 
 class MyLocalizationsDelegate extends LocalizationsDelegate<MyLocalizations> {
@@ -7,7 +7,7 @@ class MyLocalizationsDelegate extends LocalizationsDelegate<MyLocalizations> {
   const MyLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => ['en', 'pt'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => ['en', 'es'].contains(locale.languageCode);
 
   @override
   Future<MyLocalizations> load(Locale locale) async {
@@ -37,7 +37,7 @@ class MyLocalizationsDelegate extends LocalizationsDelegate<MyLocalizations> {
   static List<Locale> supportedLocales() {
     return [
       const Locale('en', 'US'),
-      const Locale('pt', 'BR')
+      const Locale('es', 'AR')
     ];
   }
 

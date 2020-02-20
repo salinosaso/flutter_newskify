@@ -1,4 +1,4 @@
-import 'package:FlutterNews/support/util/StringsLocation.dart';
+import 'package:NewskeepyAlpha/support/util/StringsLocation.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -55,7 +55,7 @@ class _InfoState extends State<Info> with TickerProviderStateMixin {
 
   Widget _getTittle() {
     return Center(
-      child: new Text("FlutterNews",
+      child: new Text("NewskeepyAlpha",
         style: new TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.blue,

@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:FlutterNews/pages/news/news_bloc.dart';
-import 'package:FlutterNews/pages/news/news_events.dart';
-import 'package:FlutterNews/pages/news/news_streams.dart';
-import 'package:FlutterNews/repository/notice_repository/model/notice.dart';
-import 'package:FlutterNews/widgets/AnimatedContent.dart';
-import 'package:FlutterNews/widgets/custom_tab.dart';
-import 'package:FlutterNews/widgets/erro_conection.dart';
+import 'package:NewskeepyAlpha/pages/news/news_bloc.dart';
+import 'package:NewskeepyAlpha/pages/news/news_events.dart';
+import 'package:NewskeepyAlpha/pages/news/news_streams.dart';
+import 'package:NewskeepyAlpha/repository/notice_repository/model/notice.dart';
+import 'package:NewskeepyAlpha/widgets/AnimatedContent.dart';
+import 'package:NewskeepyAlpha/widgets/custom_tab.dart';
+import 'package:NewskeepyAlpha/widgets/erro_conection.dart';
 import 'package:bsev/bsev.dart';
 import 'package:flutter/material.dart';
 
