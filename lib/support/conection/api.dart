@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-//Classe responsavel por realizar conexões com API
+//clase que realiza la conexion con la api
 class Api{
 
   final String urlBase;

@@ -118,7 +118,7 @@ class DetailPage extends StatelessWidget{
     return new GestureDetector(
       child: new Text(
         link,
-        style: new TextStyle(color: Colors.blue),
+        style: new TextStyle(color: Colors.pink),
       ),
       onTap: (){
         _launchURL(link,context);

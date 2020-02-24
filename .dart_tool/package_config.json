@@ -141,7 +141,7 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.1",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -159,7 +159,7 @@
     },
     {
       "name": "share",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.3+5",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.3+6",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -213,25 +213,25 @@
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.1",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.2",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+2",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+4",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.5",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1+1",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -254,7 +254,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-02-19T18:51:01.413494Z",
+  "generated": "2020-02-24T12:05:10.903891Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

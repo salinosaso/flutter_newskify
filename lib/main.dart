@@ -24,7 +24,6 @@ class NewsApp extends StatefulWidget {
 class _NewsAppState extends State<NewsApp> {
   MyLocalizationsDelegate myLocation = const MyLocalizationsDelegate();
 
-  @override
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
